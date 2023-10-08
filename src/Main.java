@@ -16,5 +16,6 @@ public class Main {
         for (Shape s : shapes) {
             s.draw();
         }
+        System.out.println(Shape.numShapes);
     }
 }
